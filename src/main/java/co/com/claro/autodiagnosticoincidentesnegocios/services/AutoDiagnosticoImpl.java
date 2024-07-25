@@ -127,7 +127,15 @@ public class AutoDiagnosticoImpl implements AutoDiagnostico {
                         if(bean.get(0).getSwBrand().equalsIgnoreCase("zte")){
                           List<Ont> onts = getServicesSoapImpl.listadoOntZte(incidente.getCIAfectado(), swIp);
                       
-                         double totalClientes = onts.stream().filter(ont-> ont.getEstado().equalsIgnoreCase("los")).count();
+                         double totalClientes = 0;
+                            for (Ont ont : onts) {
+                                if(ont.getEstado().equalsIgnoreCase("los")){
+                                  totalClientes ++;
+                                }
+                            }
+                         
+                         
+                         
                          if(totalClientes < 4 ){
                          // Pendiente validar si tiene un incidente generado y verificar el estado de dicho incidente.
                          //recuperado
