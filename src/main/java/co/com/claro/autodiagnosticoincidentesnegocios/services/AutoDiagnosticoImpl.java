@@ -4,7 +4,7 @@
  */
 package co.com.claro.autodiagnosticoincidentesnegocios.services;
 
-import client.runws.ProbeVO;
+
 import client.runws.ServiceData;
 import co.com.claro.autodiagnosticoincidentesnegocios.dto.AsociacionDTO;
 import co.com.claro.autodiagnosticoincidentesnegocios.dto.ContentDTO;
@@ -22,7 +22,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
-import pruebaConcepto.Asociacion;
+
 
 /**
  *
@@ -58,12 +58,12 @@ public class AutoDiagnosticoImpl implements AutoDiagnostico {
         for (ContentDTO.IncidentDFO incidente : incidentDFOs) {
             try {
 
-                System.out.println("***** Evaluando :  " + "Service Id:" + incidente.getIncidentID());
+                System.out.println("***** Evaluando :  " + "Service Id:" + incidente.getCIAfectado());
                 System.out.println("***** Paso 2 :  ");
 
-                List<RelationCpeOltPeBean> bean = getServicesSoapImpl.getRelation(incidente.getIncidentID());
+                List<RelationCpeOltPeBean> bean = getServicesSoapImpl.getRelation(incidente.getCIAfectado());
                 if (bean.isEmpty()) {
-                    System.out.println("***** Services Id No encontrado :   " + incidente.getIncidentID());
+                    System.out.println("***** Services Id No encontrado :   " + incidente.getCIAfectado());
                 } else {
                     System.out.println("*****  Paso 3 :");
                     // Preparar los parámetros para el método run

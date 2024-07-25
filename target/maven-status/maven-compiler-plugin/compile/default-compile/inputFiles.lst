@@ -1,4 +1,5 @@
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/MalformedURLException.java
+/home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/IncidenteActividadDTO.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/pruebaConcepto/Asociacion.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/GetServiceRelationResponse.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/ServiceOnt.java
@@ -7,6 +8,7 @@
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/pruebaConcepto/RunWSSoap.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/client/runws/GeList.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/GetMatrizOntZteResponse.java
+/home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/TipoIncidente.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/soapClient/RelationCpeOltPeService.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/client/runws/Diagnose.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/ppde/PingPlotterDF.java
@@ -36,6 +38,7 @@
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/constants/Constantes.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/ppde/SMPPDE.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/GetServiceRelation.java
+/home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/IMData.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/soapClient/GetServiceRelationResponse.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/services/AutoDiagnosticoImpl.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/MalformedURLException_Exception.java
@@ -53,8 +56,10 @@
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/client/runws/package-info.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/AsociacionDTO.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/ppamdiag/IMasociarWS_Service.java
+/home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/IMNotaDTO.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/ppamdiag/IMasociarWSResponse.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/client/runws/DiagnoseResponse.java
+/home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/dto/TipoRouterDTO.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/com/claro/matriz/Exception.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/co/com/claro/autodiagnosticoincidentesnegocios/conexion/ConexionDiagnoticadorFO.java
 /home/deiby-sierra/NetBeansProjects/autodiagnosticador/src/main/java/pruebaConcepto/ConsumoAvisos.java
